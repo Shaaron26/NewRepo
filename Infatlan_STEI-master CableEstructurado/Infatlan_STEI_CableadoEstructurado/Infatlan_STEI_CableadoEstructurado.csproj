@@ -3277,9 +3277,9 @@
     <Content Include="js\perfect-scrollbar.jquery.min.js" />
     <Content Include="js\sidebarmenu.js" />
     <Content Include="js\waves.js" />
-    <Content Include="paginas\aprobacionContabilidad.aspx" />
-    <Content Include="paginas\principalPresupuestos.aspx" />
-    <Content Include="paginas\visitaTecnica.aspx" />
+    <Content Include="pages\aprobacionContabilidad.aspx" />
+    <Content Include="pages\principalPresupuestos.aspx" />
+    <Content Include="pages\visitaTecnica.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
@@ -3298,25 +3298,25 @@
     <Compile Include="main.Master.designer.cs">
       <DependentUpon>main.Master</DependentUpon>
     </Compile>
-    <Compile Include="paginas\aprobacionContabilidad.aspx.cs">
+    <Compile Include="pages\aprobacionContabilidad.aspx.cs">
       <DependentUpon>aprobacionContabilidad.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="paginas\aprobacionContabilidad.aspx.designer.cs">
+    <Compile Include="pages\aprobacionContabilidad.aspx.designer.cs">
       <DependentUpon>aprobacionContabilidad.aspx</DependentUpon>
     </Compile>
-    <Compile Include="paginas\principalPresupuestos.aspx.cs">
+    <Compile Include="pages\principalPresupuestos.aspx.cs">
       <DependentUpon>principalPresupuestos.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="paginas\principalPresupuestos.aspx.designer.cs">
+    <Compile Include="pages\principalPresupuestos.aspx.designer.cs">
       <DependentUpon>principalPresupuestos.aspx</DependentUpon>
     </Compile>
-    <Compile Include="paginas\visitaTecnica.aspx.cs">
+    <Compile Include="pages\visitaTecnica.aspx.cs">
       <DependentUpon>visitaTecnica.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="paginas\visitaTecnica.aspx.designer.cs">
+    <Compile Include="pages\visitaTecnica.aspx.designer.cs">
       <DependentUpon>visitaTecnica.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
